@@ -1,0 +1,18 @@
+@startuml
+
+
+rectangle 业务系统 #lightgreen
+rectangle 收银台
+rectangle 交易系统
+rectangle 渠道系统
+rectangle 会员系统
+rectangle 账务系统
+rectangle 清结算系统
+rectangle 第三方支付系统 #lightgreen
+
+archimate #APPLICATION "Handle claim"  as HC
+archimate #APPLICATION "Document\nManagement\nSystem" as DMS
+
+
+
+@enduml
