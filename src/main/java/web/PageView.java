@@ -9,7 +9,7 @@ import java.util.List;
  * @author liqingyun
  * @date 2018/5/16
  */
-public class PageView<E> extends CrmCommonView {
+public class PageView<E> extends CommonView {
 
     private final List<E> list;
     private final int currentPage;

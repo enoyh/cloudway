@@ -7,12 +7,12 @@ import static org.apache.commons.lang3.builder.ToStringStyle.SHORT_PREFIX_STYLE;
  * @author liqingyun
  * @date 2018/5/16
  */
-public class CrmCommonView {
+public class CommonView {
 
     private String result;
     private String message;
 
-    public CrmCommonView(String code) {
+    public CommonView(String code) {
         this.result = code;
         this.message = ResourceBundleUtils.getMessage(code);
     }

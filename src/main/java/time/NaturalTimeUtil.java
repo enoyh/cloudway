@@ -11,6 +11,11 @@ import java.time.Month;
 import java.time.MonthDay;
 import java.time.ZoneId;
 
+/**
+ * @author liqingyun
+ * @date 2018/8/16
+ * 自然时间工具，计算当前时间的月、周、日的开始或者结束时间
+ */
 public class NaturalTimeUtil {
 
     private static final ZoneId DEFAULT_ZONE_ID = ZoneId.systemDefault();

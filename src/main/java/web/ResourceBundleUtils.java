@@ -11,6 +11,9 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * 国际化资源
+ */
 public class ResourceBundleUtils {
 
     private static final String MESSAGE_PREFIX = "message";
